@@ -1,5 +1,5 @@
 # Home_automation_IOT
-An IOT project integrated with thingspeak and MIT app inventor with a combination of various sensors adnd bluetooth module
+AN IOT PROJECT(USING ARDUINO AND PYTHON) INTEGRATED WITH THINGSPEAK AND MIT APP INVENTOR WITH A COMBINATION OF SENSORS AND BLUETOOTH
 
 
 COMPONENTS USED:
