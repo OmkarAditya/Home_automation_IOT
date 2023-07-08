@@ -19,14 +19,16 @@ https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/66033769-834
 
 2.DYNAMIC DATA TRANMISSION TO THINGSPEAK VIA PYTHON
 
-![thingspeak](https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/b196bc13-e91f-4717-af30-bbbcea6f0feb)
+![thingspeak](https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/887aa5d4-f5cf-40a9-83be-6ebd6ddc0c45)
 
+3. WEBSITE LIVE DATA TRANSMISSION
+   
 
-3.USE OF BLUETOOTH MODULE
+4.USE OF BLUETOOTH MODULE
 
 https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/3a9209dc-68ad-4d7d-9309-bc2796622349
 
-4. BLUETOOTH APP FROM MIT APP INVENTOR
+5. BLUETOOTH APP FROM MIT APP INVENTOR
  
 ![bluetooth](https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/ce79ab9e-a834-4b4b-8205-d6a2c5776d23)
 
