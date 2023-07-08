@@ -8,6 +8,7 @@ arduino, breadboard,wires,bulbs, ldr sensor, dht11 sensor, pir sensor , gas sens
 
 SOFTWARE USED: arduino IDE, Python IDE, thingspeak, MIT app inventor
 
+NOTE: TO RUN ARDUINO CODE FIRST INSTALL DHTLib.zip FILE and include the library in arduino ide by sketches->Include library->Add .zipfile
 
 I have shown the working of my model in two linked videos with full description below-
 
