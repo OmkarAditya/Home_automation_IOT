@@ -21,7 +21,7 @@ while True:
         pass
     
     # Check if the desired number of values is reached
-    if len(values_list) >= 4:  # Adjust this condition according to your array size
+    if len(values_list) >= 3:  # Adjust this condition according to your array size
         # Print the received values
         print(values_list)
         
