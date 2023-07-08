@@ -67,21 +67,24 @@
         </div>
         <p>Welcome to our Home monitoring system. Stay up-to-date with the latest home-condition measurements.</p>
         <div class="data-container">
-            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2099225/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2212051/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&xaxis=TIME&yaxis=TEMPERATURE"></iframe>
+
         </div>
         <div class="data-container">
-            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2099225/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2212051/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&xaxis=TIME&yaxis=HUMIDITY"></iframe>
+
         </div>
         <div class="data-container">
-            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2099225/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2212051/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
         </div>
         <p>Note: The graphs display the condition measurements over time for fields LDR, Humdity, and GAS.</p>
     </div>
 
     <script>
         // Configure ThingSpeak
-        var apiKey = 'FHNLGWXLEJA9L0AX';  // Replace with your ThingSpeak API key
-        var channelId = '2099225';  // Replace with your ThingSpeak channel ID
+        var apiKey = 'YDTBHMXFE42J6HX2';  // Replace with your ThingSpeak API key
+        var channelId = '2212051';  // Replace with your ThingSpeak channel ID
 
         // Fetch the latest weight value from ThingSpeak for Field X
         function fetchWeightX() {
