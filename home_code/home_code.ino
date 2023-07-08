@@ -6,7 +6,7 @@ const int mqpin=A1;
 const int dhtpin=6;
 const int ldrPin = A0;
 const int pir = 9;  
-const int relay1=3;
+const int relay1=7;
 const int relay2=8;
 const int alarm=5;
 
@@ -131,7 +131,7 @@ void loop() {
 //  Serial.println(sensorValue);    
 //  Serial.print(" ");
    // 200 limit safety limit
-   if(sensorValue>=390){
+   if(sensorValue>=200){
       digitalWrite(alarm,HIGH);
    
 //      Serial.println("NOT SAFE");
