@@ -1,8 +1,9 @@
 import serial
 import requests
+import time
 
 # Open the serial connection
-ser = serial.Serial('COM7', 9600)  # Replace 'COM7' with your Arduino's serial port
+ser = serial.Serial('COM8', 9600)  # Replace 'COM8' with your Arduino's serial port
 
 # Create an empty list to store the values
 values_list = []
@@ -25,8 +26,8 @@ while True:
         print(values_list)
         
         # Send data to ThingSpeak
-        api_key = 'YOUR_API_KEY' #PUT YOUR API KEY FROM THINKSPEAK
-        url = f'https://api.thingspeak.com/update?api_key=YOUR_API_KEY' #PUT YOUR API KEY LINK FROM THINKSPEAK
+        api_key = 'YOUR_API_KEY'  # Put your ThingSpeak API key here
+        url = f'https://api.thingspeak.com/update?api_key=YOUR_API_KEY'
 
         # Prepare the data payload
         data = {"api_key": api_key}
@@ -47,6 +48,9 @@ while True:
         
         # Clear the values list
         values_list = []
+    
+    # Wait for 5 seconds
+    time.sleep(5)
 
 # Close the serial connection
 ser.close()
