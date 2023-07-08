@@ -22,7 +22,8 @@ https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/66033769-834
 ![thingspeak](https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/887aa5d4-f5cf-40a9-83be-6ebd6ddc0c45)
 
 3. WEBSITE LIVE DATA TRANSMISSION
-   
+![website1png](https://github.com/OmkarAditya/Home_automation_IOT/assets/108687318/7288dd11-37f0-45cd-9999-eafc96a522bf)
+
 
 4.USE OF BLUETOOTH MODULE
 
