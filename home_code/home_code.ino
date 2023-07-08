@@ -1,4 +1,4 @@
-  #include <SoftwareSerial.h>
+#include <SoftwareSerial.h>
 #include <dht.h>
 dht DHT;
 
@@ -145,7 +145,7 @@ void loop() {
 //  Serial.println("***********************************************************");
     
 //   Serial.write((byte*)arr, sizeof(arr));
-  for(int g=0;g<4;g++){
+  for(int g=1;g<4;g++){
     Serial.println(arr[g]);
   }
   delay(1000);
